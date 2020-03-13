@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 
+import Navbar from './components/Navbar';
+
 class App extends Component {
 
   constructor(){
@@ -30,6 +32,7 @@ class App extends Component {
     return (
       <div className = 'container'>
         <h1> ⚽️ Women's World Cup ⚽️ </h1>
+        <Navbar />
       </div>
     );
   }
