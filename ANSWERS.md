@@ -10,5 +10,11 @@
     3. Unmounting phase - componentWillUnmount is called to clean up any side-effects/components from the screen
 
 
-- [ ] What is the purpose of a custom hook?
-- [ ] Why is it important to test our apps?
+- [x] What is the purpose of a custom hook?
+
+    To apply non-visual logic and state related logic to a component.
+
+
+- [x] Why is it important to test our apps?
+
+    We should test our apps because it surfaces bugs faster and reduces risk of regressions.
