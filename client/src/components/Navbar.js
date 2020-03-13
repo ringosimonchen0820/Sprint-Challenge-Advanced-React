@@ -1,8 +1,10 @@
 import React from 'react';
 
-const Navbar = () => {
+import Search from './Search';
+
+const Navbar = (props) => {
     return (
-        <div></div>
+        <Search players={props.players} />
     );
 }
 

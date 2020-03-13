@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import axios from 'axios';
 
 import Navbar from './components/Navbar';
+import PlayersList from './components/PlayersList';
+
+import './App.css';
 
 class App extends Component {
 
@@ -32,7 +35,10 @@ class App extends Component {
     return (
       <div className = 'container'>
         <h1> ⚽️ Women's World Cup ⚽️ </h1>
-        <Navbar />
+        <Navbar players={this.state.data}/>
+        <div className='soccer-players'>
+          <PlayersList players={this.state.data} />
+        </div>
       </div>
     );
   }
