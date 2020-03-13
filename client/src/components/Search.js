@@ -1,5 +1,7 @@
 import React from 'react';
 
+import useInput from '../custom-hooks/useInput';
+
 const Search = ({players}) => {
     const [handleChange, formSubmit, searchResults, searchTerm] = useInput(players);
     return (
